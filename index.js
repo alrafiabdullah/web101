@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const counterTag = document.getElementById("counter");
     let i = 0;
     firstBtn.addEventListener('click', () => {
-        console.log("You clicked the first button!");
+        // console.log("You clicked the first button!");
         i++;
         counterTag.innerHTML = i;
     });
 
     secondBtn.addEventListener('click', () => {
-        console.log("You clicked the first button!");
+        // console.log("You clicked the first button!");
         i--;
         counterTag.innerHTML = i;
     });
